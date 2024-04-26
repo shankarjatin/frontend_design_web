@@ -185,7 +185,9 @@ margin-top:30px ;
     max-width: 30%;
     text-align: center;
 }
-
+.features-card img{
+    width: 60px;
+}
 /* big features */
 
 .big-feature-section{
@@ -282,4 +284,15 @@ footer{
 .footer-container{
     align-items: flex-start;
     justify-content: space-between;
+}
+
+/* subfooter */
+
+.subfooter{
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+.subfooter-container{
+    justify-content: center;
+    gap: 30px;
 }
