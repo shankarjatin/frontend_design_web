@@ -20,7 +20,7 @@
     <a href="#" class="company-logo">
         <img src="./assets/asset 1.png" alt="company logo">
     </a>
-<div class="nav-links">
+<div class="nav-links" id="nav-links">
     <ul class="flex">
         <li><a href="#" class="hover-links">Products</a></li>
         <li><a href="#" class="hover-links">Customer</a></li>
@@ -223,7 +223,15 @@
     </div>
 </div>
 
+<script>
+    const toggleButton = document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('nav-links');
 
+    toggleButton.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    })
+
+</script>
 
 <script src="https://kit.fontawesome.com/3d698be46a.js" crossorigin="anonymous"></script>
 </body>
